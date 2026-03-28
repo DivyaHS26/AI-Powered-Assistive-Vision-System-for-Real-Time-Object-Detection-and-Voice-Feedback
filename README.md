@@ -20,12 +20,20 @@ An intelligent real-time object detection and tracking system that provides both
 - 🎓 **Education** - Computer vision learning tool
 - 🏠 **Smart Home** - Intelligent home monitoring
 
-## Project Insights
-- Successfully integrates computer vision (YOLOv8) with text-to-speech functionality
-- Implements efficient frame processing by resizing before detection
-- Uses threading to prevent audio feedback from blocking the main detection loop
-- Provides both visual and auditory feedback for detected objects
-- Handles edge cases like no detections or processing errors gracefully
+## 🔧 Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- Webcam
+- 4GB+ RAM (8GB recommended)
+- GPU (optional, for better performance)
+
+## 🎮 Controls
+| Key | Action |
+| :--- | :--- |
+| <kbd>q</kbd> | Quit application |
+| <kbd>s</kbd> | Save screenshot |
+| <kbd>v</kbd> | Voice summary (all objects) |
 
 ## Features
 - Real-time object detection using YOLOv8
