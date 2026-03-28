@@ -28,6 +28,34 @@ An intelligent real-time object detection and tracking system that provides both
 - 4GB+ RAM (8GB recommended)
 - GPU (optional, for better performance)
 
+
+## Architecture
+  ┌─────────────────────────────────────────────────────────────┐
+│                    Input Layer                              │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
+│  │  Webcam      │  │  Video File  │  │  IP Camera   │    │
+│  └──────────────┘  └──────────────┘  └──────────────┘    │
+└─────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────┐
+│                  Processing Layer                           │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │           YOLOv8 Object Detection Engine            │  │
+│  │  • Frame preprocessing (resize, normalize)         │  │
+│  │  • Feature extraction (CNN layers)                 │  │
+│  │  • Object classification & localization            │  │
+│  │  • Confidence scoring & filtering                  │  │
+│  └──────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────┐
+│                  Output Layer                               │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
+│  │  Visual      │  │  Voice       │  │  Data        │    │
+│  │  Display     │  │  Feedback    │  │  Export      │    │
+│  └──────────────┘  └──────────────┘  └──────────────┘    │
+└─────────────────────────────────────────────────────────────┘
+
 ## 🎮 Controls
 | Key | Action |
 | :--- | :--- |
