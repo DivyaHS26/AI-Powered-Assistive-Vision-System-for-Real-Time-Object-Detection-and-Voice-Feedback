@@ -1,24 +1,24 @@
 # Voice-Enabled-Real-Time-Object-Tracking-Using-Image-Processing
 
-## Project Objective
-To create a real-time object detection and tracking system that combines computer vision with voice feedback. The system uses a webcam feed to identify objects from predefined classes and provides audio announcements when new objects are detected or their counts increase, making it accessible for visually impaired users or hands-free applications.
+## 🚀 Overview
+An intelligent real-time object detection and tracking system that provides both visual and auditory feedback, making it accessible for visually impaired individuals and enhancing situational awareness in various applications.
 
-## Process
-1. Setup: Initialize the YOLOv8 model for object detection with GPU acceleration if available
-2. Video Capture: Access the webcam feed using OpenCV
-3. Frame Processing:
-- Resize frames for efficient processing
-- Run object detection using YOLOv8
-- Filter detections to only selected classes
-4. Tracking & Analysis:
-- Compare current detections with previous frame
-- Identify new objects or count increases
-5. Voice Feedback:
-- Use text-to-speech to announce detected objects
-- Implement threading for non-blocking audio feedback
-6. Visualization:
-- Draw bounding boxes and labels on detected objects
-- Display the annotated video stream
+## Key Features
+
+- 🎯 **Real-Time Object Detection** - Detects 80+ object classes using YOLOv8
+- 🗣️ **Voice Feedback** - Natural language voice summaries of detected objects
+- 🎥 **Live Webcam Processing** - Real-time video stream processing
+- 📊 **Performance Metrics** - FPS counter and object counting
+- 💾 **Screenshot Capture** - Save detection results instantly
+- 🎨 **Clean Visual Interface** - Green bounding boxes with confidence scores
+
+### Applications
+
+- 👁️ **Assistive Technology** - Vision assistance for visually impaired
+- 🏢 **Surveillance** - Automated monitoring systems
+- 🏭 **Industrial Safety** - Real-time hazard detection
+- 🎓 **Education** - Computer vision learning tool
+- 🏠 **Smart Home** - Intelligent home monitoring
 
 ## Project Insights
 - Successfully integrates computer vision (YOLOv8) with text-to-speech functionality
