@@ -12,9 +12,9 @@ An intelligent real-time object detection and tracking system that provides both
 - 💾 **Screenshot Capture** - Save detection results instantly
 - 🎨 **Clean Visual Interface** - Green bounding boxes with confidence scores
 
-### Applications
+## Applications
 
-- 👁️ **Assistive Technology** - Vision assistance for visually impaired
+-  **Assistive Technology** - Vision assistance for visually impaired
 - 🏢 **Surveillance** - Automated monitoring systems
 - 🏭 **Industrial Safety** - Real-time hazard detection
 - 🎓 **Education** - Computer vision learning tool
